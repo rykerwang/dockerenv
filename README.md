@@ -6,7 +6,7 @@ Quickly build common publishing environments by docker-compose.
 ```
 chmod +x build_env.sh;./build.sh
 ```
-if will make dir write default config file pull images and start containers.
+it will make dir write default config file pull images and start containers.
 
 ## directory structure
 the script will create directory as follows
