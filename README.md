@@ -6,8 +6,10 @@ Quickly build common publishing environments by docker-compose.
 ```
 chmod +x build_env.sh;./build.sh
 ```
+if will make dir write default config file pull images and start containers.
 
 ## directory structure
+the script will create directory as follows
 
 ```
 
@@ -32,12 +34,14 @@ chmod +x build_env.sh;./build.sh
 
 ```
 
-## build docker
+## update container
+when you change your config files you can execute the following command for update.
+
 ```
 docker-compose up -d
 ```
 
-## build secure registry
+## to set a secure registry
 
 See:  
 [Use docker-compose build Secure Registry](http://wyq.me/blog/2019/01/22/%E4%BD%BF%E7%94%A8docker-compose%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%AE%89%E5%85%A8%E7%9A%84%E7%A7%81%E6%9C%89secure-registry/)
